@@ -1,0 +1,14 @@
+{
+  "name": "course_web",
+  "version": "1.0.0",
+  "description": "專案練習(前端串後端)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}

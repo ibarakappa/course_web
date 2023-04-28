@@ -1,0 +1,53 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+
+@import "../../../stylesheet/helper/variables";
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "../../../stylesheet/layout/layout.scss";
+
+.main {
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   button {
+      width: 194px;
+      display: inline-block;
+      padding: 15px 25px;
+      font-size: 18px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #000;
+      background-color: #fff;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 2px 2px #999;
+   }
+   .button:hover {
+      transform: scale(1.05);
+   }
+   .button:active {
+      /* :active是滑鼠點擊元素的狀態 */
+      transform: scale(1);
+      box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, 0.2);
+   }
+}
+.entry {
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+input[type="number"] {
+   -moz-appearance: textfield;
+}

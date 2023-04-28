@@ -1,0 +1,52 @@
+@import "../node_modules/bootstrap/scss/functions";
+
+@import "../stylesheet/helper/variables";
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "../stylesheet/layout/layout.scss";
+
+.main {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+th {
+   background-color: #d6ccc2;
+}
+th,
+td {
+   padding: 5px 10px;
+   border: 1px solid #000;
+   text-align: center;
+}
+
+tbody:nth-child(even) {
+   background-color: white;
+}
+
+tbody:nth-child(odd) {
+   background-color: #eee4e1;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+input[type="number"] {
+   -moz-appearance: textfield;
+}
+select {
+   width: 282px;
+}
+.info {
+   input {
+      width: 282px;
+   }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./style.css" />
+      <title>Document</title>
+   </head>
+   <body id="body">
+      <a href="../index.html">回首頁</a>
+      <div class="info">
+         <input class="number my-4" type="number" placeholder="請輸入學號" />
+         <button class="list mx-2">目前課程清單</button>
+      </div>
+
+      <div class="pickCourse">
+         <select class="" name="" id="select">
+            <option value="defualt">請選擇課程</option>
+         </select>
+         <button class="btn-add mx-2">加入加退選清單</button>
+      </div>
+
+      <p class="message my-2">&nbsp;</p>
+      <div class="addOrDrop">
+         <div class="addAndDrop my-3 d-flex align-items-center">
+            <h2 class="text-center my-0">加退選清單</h2>
+            <button class="add ms-3">選課</button>
+            <button class="drop ms-2">退選</button>
+         </div>
+
+         <table id="table" class="table-light addtable my-3">
+            <tr>
+               <th class="">課程代碼</th>
+               <th>課程名稱</th>
+               <th>學分</th>
+               <th>星期</th>
+               <th>上課時間</th>
+               <th>下課時間</th>
+               <th>移除</th>
+            </tr>
+         </table>
+      </div>
+
+      <div class="already">
+         <h2 class="my-3">已選課程</h2>
+         <table class="alreadytable">
+            <tr>
+               <th>課程代碼</th>
+               <th>課程名稱</th>
+               <th>學分</th>
+               <th>星期</th>
+               <th>上課時間</th>
+               <th>下課時間</th>
+            </tr>
+         </table>
+      </div>
+
+      <script src="../JS/pick_And_Drop_Course.js"></script>
+   </body>
+</html>

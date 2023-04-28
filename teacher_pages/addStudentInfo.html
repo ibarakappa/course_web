@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./style.css" />
+      <title>Document</title>
+   </head>
+   <body>
+      <a href="../index.html">回首頁</a>
+      <a href="./studentInfoHome.html">回上一頁</a>
+      <div class="entry mx-5">
+         <h1>新增學生資料</h1>
+         <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+               >學號</label
+            >
+            <input
+               type="number"
+               class="number form-control"
+               id="exampleFormControlInput1"
+               placeholder="請輸入欲新增學號"
+            />
+         </div>
+         <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+               >姓名</label
+            >
+            <input
+               type="text"
+               class="name form-control"
+               id="exampleFormControlInput1"
+               placeholder="請輸入欲新增學生姓名"
+            />
+         </div>
+         <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+               >學分
+            </label>
+            <input
+               type="number"
+               class="credit form-control"
+               id="exampleFormControlInput1"
+               placeholder="請輸入0~10"
+            />
+         </div>
+         <p class="message">&nbsp;</p>
+         <button class="submit">送出</button>
+      </div>
+
+      <script src="./JS/add_New_Student.js"></script>
+   </body>
+</html>
